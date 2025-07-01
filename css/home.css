@@ -1,0 +1,183 @@
+body {
+    background-color: #000000;
+    color: #fff;
+}
+
+#logo {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: 30px;
+    top: -45px;
+
+    background: url(top-gun-maverick-logo-png_seeklogo-550345.png);
+    background-blend-mode: luminosity;
+    filter: brightness(0) invert(1);
+    
+}
+
+.card-img-top {
+    height: 300px;
+    object-fit: cover;
+    object-position: top;
+}
+.card.h-100 {
+    max-height: 400px;
+}
+.card {
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-image {
+    max-height: 500px;
+    width: auto; 
+    object-fit: contain; 
+    margin: 0 auto; 
+}
+
+@media (max-width: 768px) {
+    .carousel-image {
+        max-height: 300px;
+    }
+}
+
+#elencoCarousel .carousel-inner {
+    padding: 0 40px;
+}
+
+#elencoCarousel .card {
+    margin: 0 5px;
+    transition: transform 0.3s ease;
+}
+
+#elencoCarousel .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+#elencoCarousel .card-img-top {
+    height: 300px;
+    object-fit: cover;
+}
+
+#elencoCarousel .carousel-control-prev,
+#elencoCarousel .carousel-control-next {
+    width: 5%;
+    background: rgba(0,0,0,0.3);
+    opacity: 1;
+}
+
+#elencoCarousel .carousel-control-prev:hover,
+#elencoCarousel .carousel-control-next:hover {
+    background: rgba(0,0,0,0.5);
+}
+
+#elencoCarousel .carousel-inner {
+    padding: 0;
+}
+
+#elencoCarousel .row {
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1200px; 
+}
+
+#elencoCarousel .col {
+    display: flex;
+    justify-content: center;
+}
+
+#elencoCarousel .card {
+    margin: 0 10px 20px; 
+    flex: 0 0 auto; 
+}
+
+#elencoCarousel .carousel-control-prev,
+#elencoCarousel .carousel-control-next {
+    width: 40px;
+    background: rgba(0,0,0,0.5);
+    opacity: 1;
+    margin: 0 -20px; 
+}
+
+@media (max-width: 768px) {
+    #elencoCarousel .card {
+        max-width: 200px;
+    }
+    
+    #elencoCarousel .card-img-top {
+        height: 250px;
+    }
+}
+
+@media (max-width: 576px) {
+    #elencoCarousel .card {
+        max-width: 160px;
+    }
+    
+    #elencoCarousel .card-img-top {
+        height: 200px;
+    }
+}
+
+#personagensCarousel .carousel-inner {
+    padding: 0;
+}
+
+#personagensCarousel .row {
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+#personagensCarousel .col {
+    display: flex;
+    justify-content: center;
+}
+
+#personagensCarousel .card {
+    margin: 0 10px 20px;
+    flex: 0 0 auto;
+    max-width: 250px;
+    transition: transform 0.3s ease;
+}
+
+#personagensCarousel .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+#personagensCarousel .card-img-top {
+    height: 300px;
+    object-fit: cover;
+}
+
+#personagensCarousel .carousel-control-prev,
+#personagensCarousel .carousel-control-next {
+    width: 40px;
+    background: rgba(0,0,0,0.5);
+    opacity: 1;
+    margin: 0 -20px;
+}
+
+@media (max-width: 768px) {
+    #personagensCarousel .card {
+        max-width: 200px;
+    }
+    
+    #personagensCarousel .card-img-top {
+        height: 250px;
+    }
+}
+
+@media (max-width: 576px) {
+    #personagensCarousel .card {
+        max-width: 160px;
+    }
+    
+    #personagensCarousel .card-img-top {
+        height: 200px;
+    }
+}

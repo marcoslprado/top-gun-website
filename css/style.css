@@ -1,0 +1,36 @@
+body {
+    background-color: #000000;
+    color: #fff;
+}
+
+.form-control {
+    background-color: #1c1c1c;
+    color: #fff;
+    border: 1px solid #ffc107;
+}
+
+.form-control:focus {
+    border-color: #FFD54F;
+    box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.25);
+    background-color: #1c1c1c;
+    color: #fff;
+}
+
+.btn-login {
+    background-color: #bfc4ca;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-login:hover {
+    background-color: #8e99a4;
+    transform: scale(1.02);
+    color: #000
+}
+
+::placeholder {
+  color: #e0d8d8 !important;
+  opacity: 1;
+}
